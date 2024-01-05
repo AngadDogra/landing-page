@@ -1,2 +1,2 @@
 # landing-page
-Project-02 of TheOdinProject
+This is the 2nd project of TheOdinProject 
