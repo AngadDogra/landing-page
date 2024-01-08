@@ -136,22 +136,29 @@ button{
 }
 
 .calltoaction-container{
-    height: 150px;
-    margin-top: 200px;
-    margin-left: 100px;
-    margin-right: 100px;
+    height: 200px;
+    margin-left: 150px;
+    margin-right:150px;
     background-color: #3882F6;
-    border: 1px solid black;
     border-radius: 2cap;
 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 150px;
 }
 
-.calltoaction-quote{
+.calltoaction-quote-statement{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 28px;
-    color: #eee;
+    color: #E5E7EB;
+    font-size: 30px;
     font-weight: 900;
-    padding-left: 150px ;
+    padding-left: 12cap;
+}
+
+.calltoaction-statement{
+    font-weight: 200;
+    font-size: 18px;
 }
 
 .calltoaction-button button{
